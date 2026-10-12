@@ -85,6 +85,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "StudySpark India" },
       { property: "og:description", content: "Free study resources for Indian students" },
       { property: "og:type", content: "website" },
+      { name: "google-site-verification", content: "_RnUVGGraC03N47qQ9qOhXL44FswO4PR-5onGz4ubUU" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
     ],
