@@ -8,6 +8,7 @@ export function SiteHeader() {
         <Link to="/" className="font-display text-lg font-bold">StudySpark India</Link>
         <nav className="flex gap-2">
           <Link to="/" activeOptions={{ exact: true }} activeProps={{ className: "bg-primary-foreground/25" }} className={cls}>Home</Link>
+          <Link to="/gk" activeProps={{ className: "bg-primary-foreground/25" }} className={`${cls} bg-primary-foreground/15`}>GK</Link>
           <Link to="/notes" activeProps={{ className: "bg-primary-foreground/25" }} className={`${cls} bg-primary-foreground/15`}>Notes</Link>
         </nav>
       </div>
