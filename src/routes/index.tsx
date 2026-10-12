@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { gkQuestions, scoreQuiz } from "@/data/gk-questions";
 import { articles, categories, lastUpdated } from "@/data/current-affairs";
@@ -20,16 +20,16 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <div className="min-h-screen">
-      <header className="bg-hero text-primary-foreground">
+      <section className="bg-hero text-primary-foreground">
         <div className="mx-auto max-w-3xl px-4 py-10">
-          <p className="font-display text-sm uppercase tracking-widest opacity-80">StudySpark India</p>
           <h1 className="mt-2 font-display text-3xl font-bold sm:text-4xl">Daily GK & Current Affairs</h1>
           <nav className="mt-6 flex gap-3 text-sm">
             <a href="#quiz" className="rounded-full bg-primary-foreground/15 px-4 py-2">GK Quiz</a>
             <a href="#news" className="rounded-full bg-primary-foreground/15 px-4 py-2">Current Affairs</a>
+            <Link to="/notes" className="rounded-full bg-primary-foreground px-4 py-2 font-semibold text-primary">Notes Library</Link>
           </nav>
         </div>
-      </header>
+      </section>
       <main className="mx-auto max-w-3xl space-y-12 px-4 py-10">
         <Quiz />
         <CurrentAffairs />
