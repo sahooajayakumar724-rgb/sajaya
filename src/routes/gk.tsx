@@ -86,7 +86,7 @@ function QuizRunner({ list }: { list: BankQuestion[] }) {
 
   if (list.length === 0) return <p className="rounded-lg border border-dashed p-6 text-center text-sm text-muted-foreground">No questions match. Try another search or category.</p>;
 
-  const q = list[Math.min(idx, list.length - 1)];
+  const q = list[Math.min(idx, list.length - 1)]!;
   const answered = list.filter((x) => picks[x.id] !== undefined).length;
   const score = scoreBank(list, picks);
   const pick = picks[q.id];
