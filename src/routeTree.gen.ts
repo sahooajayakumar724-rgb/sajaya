@@ -10,12 +10,18 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as GkRouteImport } from './routes/gk'
 import { Route as NotesIndexRouteImport } from './routes/notes.index'
 import { Route as NotesChapterIdRouteImport } from './routes/notes.$chapterId'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GkRoute = GkRouteImport.update({
+  id: '/gk',
+  path: '/gk',
   getParentRoute: () => rootRouteImport,
 } as any)
 const NotesIndexRoute = NotesIndexRouteImport.update({
@@ -31,30 +37,34 @@ const NotesChapterIdRoute = NotesChapterIdRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/gk': typeof GkRoute
   '/notes/$chapterId': typeof NotesChapterIdRoute
   '/notes/': typeof NotesIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/gk': typeof GkRoute
   '/notes/$chapterId': typeof NotesChapterIdRoute
   '/notes': typeof NotesIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/gk': typeof GkRoute
   '/notes/$chapterId': typeof NotesChapterIdRoute
   '/notes/': typeof NotesIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/notes/$chapterId' | '/notes/'
+  fullPaths: '/' | '/gk' | '/notes/$chapterId' | '/notes/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/notes/$chapterId' | '/notes'
-  id: '__root__' | '/' | '/notes/$chapterId' | '/notes/'
+  to: '/' | '/gk' | '/notes/$chapterId' | '/notes'
+  id: '__root__' | '/' | '/gk' | '/notes/$chapterId' | '/notes/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  GkRoute: typeof GkRoute
   NotesChapterIdRoute: typeof NotesChapterIdRoute
   NotesIndexRoute: typeof NotesIndexRoute
 }
@@ -66,6 +76,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gk': {
+      id: '/gk'
+      path: '/gk'
+      fullPath: '/gk'
+      preLoaderRoute: typeof GkRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/notes/': {
@@ -87,6 +104,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  GkRoute: GkRoute,
   NotesChapterIdRoute: NotesChapterIdRoute,
   NotesIndexRoute: NotesIndexRoute,
 }
