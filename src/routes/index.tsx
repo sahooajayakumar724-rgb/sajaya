@@ -74,8 +74,8 @@ function Quiz() {
                 const chosen = picks[i] === j;
                 let cls = chosen ? "border-primary bg-secondary" : "hover:bg-muted";
                 if (submitted) {
-                  if (j === q.answer) cls = "border-success bg-success/15";
-                  else if (chosen) cls = "border-destructive bg-destructive/10";
+                  if (j === q.answer) cls = "border-2 border-success bg-success/25 font-semibold";
+                  else if (chosen) cls = "border-2 border-destructive bg-destructive/20";
                   else cls = "opacity-60";
                 }
                 return (
