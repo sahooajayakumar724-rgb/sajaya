@@ -51,6 +51,9 @@
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
+  --color-success: var(--success);
+  --font-display: "Poppins", system-ui, sans-serif;
+  --font-sans: "Hind", system-ui, sans-serif;
   --color-sidebar: var(--sidebar);
   --color-sidebar-foreground: var(--sidebar-foreground);
   --color-sidebar-primary: var(--sidebar-primary);
@@ -95,6 +98,13 @@
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
+  --background: oklch(0.985 0.01 85);
+  --primary: oklch(0.45 0.13 255);
+  --secondary: oklch(0.94 0.03 255);
+  --accent-foreground: oklch(0.6 0.17 50);
+  --success: oklch(0.6 0.15 150);
+  --hero: linear-gradient(135deg, oklch(0.42 0.13 255), oklch(0.6 0.17 50));
+  --shadow-soft: 0 2px 10px oklch(0.3 0.05 255 / 0.08);
 }
 
 .dark {
@@ -142,3 +152,6 @@
     color: var(--color-foreground);
   }
 }
+
+@utility bg-hero { background: var(--hero); }
+@utility shadow-soft { box-shadow: var(--shadow-soft); }
