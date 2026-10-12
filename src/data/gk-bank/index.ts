@@ -89,7 +89,9 @@ export function dailySet(dateStr: string, size = 10): BankQuestion[] {
   for (let i = idx.length - 1; i > 0; i--) {
     seed = (seed * 1103515245 + 12345) >>> 0;
     const j = seed % (i + 1);
-    [idx[i], idx[j]] = [idx[j], idx[i]];
+    const t = idx[i]!;
+    idx[i] = idx[j]!;
+    idx[j] = t;
   }
-  return idx.slice(0, size).map((i) => gkBank[i]);
+  return idx.slice(0, size).map((i) => gkBank[i]!);
 }
