@@ -6,10 +6,10 @@ import { useBookmarks } from "@/hooks/use-bookmarks";
 export const Route = createFileRoute("/notes/")({
   head: () => ({
     meta: [
-      { title: "Notes Library — StudySpark India" },
-      { name: "description", content: "Free chapter-wise notes for NCET ITEP, GK, history, geography, polity, science and English grammar." },
-      { property: "og:title", content: "Notes Library — StudySpark India" },
-      { property: "og:description", content: "Free chapter-wise study notes with practice MCQs for NCET ITEP and general studies." },
+      { title: "Notes Library — Sajaya" },
+      { name: "description", content: "Free chapter-wise notes for NCET ITEP, GK, history, geography, polity, science and English grammar on Sajaya." },
+      { property: "og:title", content: "Notes Library — Sajaya" },
+      { property: "og:description", content: "Free chapter-wise study notes with practice MCQs for NCET ITEP and general studies on Sajaya." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

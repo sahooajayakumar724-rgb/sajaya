@@ -6,10 +6,10 @@ import { articles, categories, lastUpdated } from "@/data/current-affairs";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "StudySpark India — Daily GK Quiz & Current Affairs" },
-      { name: "description", content: "Free daily GK practice quiz and verified current affairs for Indian students." },
-      { property: "og:title", content: "StudySpark India — Daily GK & Current Affairs" },
-      { property: "og:description", content: "Free daily GK practice quiz and verified current affairs for Indian students." },
+      { title: "Sajaya — Daily GK Quiz & Current Affairs" },
+      { name: "description", content: "Sajaya's free daily GK practice quiz and verified current affairs for Indian students." },
+      { property: "og:title", content: "Sajaya — Daily GK & Current Affairs" },
+      { property: "og:description", content: "Sajaya's free daily GK practice quiz and verified current affairs for Indian students." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -22,6 +22,7 @@ function Index() {
     <div className="min-h-screen">
       <section className="bg-hero text-primary-foreground">
         <div className="mx-auto max-w-3xl px-4 py-10">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] opacity-80">Sajaya</p>
           <h1 className="mt-2 font-display text-3xl font-bold sm:text-4xl">Daily GK & Current Affairs</h1>
           <nav className="mt-6 flex gap-3 text-sm">
             <a href="#quiz" className="rounded-full bg-primary-foreground/15 px-4 py-2">GK Quiz</a>
