@@ -5,7 +5,7 @@ export function SiteHeader() {
   return (
     <header className="bg-hero text-primary-foreground">
       <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-4 py-3">
-        <Link to="/" className="font-display text-lg font-bold">StudySpark India</Link>
+        <Link to="/" className="font-display text-lg font-bold">Sajaya</Link>
         <nav className="flex gap-2">
           <Link to="/" activeOptions={{ exact: true }} activeProps={{ className: "bg-primary-foreground/25" }} className={cls}>Home</Link>
           <Link to="/gk" activeProps={{ className: "bg-primary-foreground/25" }} className={`${cls} bg-primary-foreground/15`}>GK</Link>
