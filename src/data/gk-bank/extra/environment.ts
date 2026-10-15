@@ -21,7 +21,7 @@ export default [
   ["Keibul Lamjao, the world's only floating national park, is in:", "Manipur", "Assam", "Meghalaya", "Nagaland", 0, "It is an integral part of Loktak Lake in Manipur."],
   ["The largest mangrove forest in the world is:", "Pichavaram", "Sundarbans", "Bhitarkanika", "Godavari-Krishna", 1, "The Sundarbans delta spans India and Bangladesh."],
   ["CITES is an international agreement related to:", "Carbon credits", "Endangered species trade", "Marine pollution", "Nuclear waste", 1, "Convention on International Trade in Endangered Species of Wild Fauna and Flora."],
-  ["World Ozone Day is observed on:", "September 16", "September 26", "October 16", "October 26", 0, "Commemorates the date of the signing of the Montreal Protocol."],
+  ["The ozone layer in Earth's atmosphere lies mainly in the:", "Troposphere", "Stratosphere", "Mesosphere", "Thermosphere", 1, "Most of the ozone is found in the lower stratosphere, about 15-35 km above Earth."],
   ["Eutrophication in water bodies is primarily caused by an excess of:", "Oxygen", "Nutrients (Nitrogen/Phosphorus)", "Carbon dioxide", "Heavy metals", 1, "Leads to excessive growth of algae and depletion of dissolved oxygen."],
   ["Who is credited with discovering the Greenhouse Effect?", "Joseph Fourier", "John Tyndall", "Svante Arrhenius", "James Hansen", 0, "Fourier first proposed the idea in 1824."],
   ["Which organisms are commonly used as bio-indicators of air pollution?", "Algae", "Lichens", "Fungi", "Ferns", 1, "Lichens are sensitive to sulfur dioxide (SO2) levels in the air."],
