@@ -6,10 +6,10 @@ import { articles, lastUpdated } from "@/data/current-affairs";
 export const Route = createFileRoute("/gk")({
   head: () => ({
     meta: [
-      { title: "GK Question Bank — 500 Practice MCQs | Sajaya" },
-      { name: "description", content: "500 GK practice MCQs in 12 categories with answers, explanations, quiz scoring and a daily set — on Sajaya." },
-      { property: "og:title", content: "GK Question Bank — 500 Practice MCQs | Sajaya" },
-      { property: "og:description", content: "Practice GK MCQs by category with search, scoring and explanations on Sajaya." },
+      { title: "GK Question Bank — 500 Practice MCQs | S.ajaya" },
+      { name: "description", content: "500 GK practice MCQs in 12 categories with answers, explanations, quiz scoring and a daily set — on S.ajaya." },
+      { property: "og:title", content: "GK Question Bank — 500 Practice MCQs | S.ajaya" },
+      { property: "og:description", content: "Practice GK MCQs by category with search, scoring and explanations on S.ajaya." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

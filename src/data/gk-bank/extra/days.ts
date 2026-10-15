@@ -1,6 +1,6 @@
 import type { Row } from "../types";
 export default [
-  ["National Sports Day in India is celebrated on:", "29 August", "15 August", "26 January", "5 September", 0, "Birthday of hockey legend Major Dhyan Chand."],
+  ["National Youth Day in India is celebrated on 12 January to mark the birth anniversary of:", "Swami Vivekananda", "Bhagat Singh", "Dayanand Saraswati", "Vinoba Bhave", 0, "It marks Swami Vivekananda's birthday (12 January 1863)."],
   ["Pravasi Bharatiya Divas is celebrated on:", "15 January", "9 January", "25 January", "12 January", 1, "Marks the return of Mahatma Gandhi from South Africa in 1915."],
   ["National Handloom Day is observed on:", "15 August", "2 October", "7 August", "26 November", 2, "To commemorate the Swadeshi Movement launched in 1905."],
   ["National Tourism Day in India is celebrated on:", "27 September", "25 December", "15 August", "25 January", 3, "Note: World Tourism Day is 27 September."],

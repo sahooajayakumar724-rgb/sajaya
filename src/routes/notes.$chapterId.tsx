@@ -10,7 +10,7 @@ export const Route = createFileRoute("/notes/$chapterId")({
     return c;
   },
   head: ({ loaderData }) => {
-    const t = loaderData ? `${loaderData.title} — Notes | Sajaya` : "Notes | Sajaya";
+    const t = loaderData ? `${loaderData.title} — Notes | S.ajaya` : "Notes | S.ajaya";
     const d = loaderData ? `${loaderData.subject} notes: ${loaderData.title}. Explanations, key points and practice MCQs.` : "Study notes";
     return { meta: [{ title: t }, { name: "description", content: d }, { property: "og:title", content: t }, { property: "og:description", content: d }, { property: "og:type", content: "article" }, { name: "twitter:card", content: "summary_large_image" }] };
   },
