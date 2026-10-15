@@ -4,7 +4,7 @@ export default [
   ["Which is the largest national park in India by area?", "Hemis", "Desert", "Gangotri", "Namdapha", 0, "Hemis National Park is in Ladakh and is famous for snow leopards."],
   ["Kaziranga National Park is most famous for which animal?", "Tiger", "Asiatic Lion", "One-horned Rhinoceros", "Elephant", 2, "Located in Assam, it hosts two-thirds of the world's great one-horned rhinoceroses."],
   ["Gir National Park in Gujarat is the only natural habitat of:", "Bengal Tiger", "Asiatic Lion", "Snow Leopard", "Clouded Leopard", 1, "It is the last refuge of the Asiatic lion."],
-  ["In which year was 'Project Tiger' launched in India?", "1970", "1972", "1973", "1975", 2, "Launched to ensure a viable population of Bengal tigers in their natural habitats."],
+  ["The National Green Tribunal was established in which year?", "2006", "2008", "2010", "2012", 2, "It was set up in 2010 for effective and expeditious disposal of environmental cases."],
   ["World Environment Day is celebrated annually on:", "April 22", "June 5", "September 16", "October 4", 1, "Established by the UN General Assembly in 1972."],
   ["Earth Day is observed globally on:", "March 22", "April 22", "May 22", "June 22", 1, "First celebrated in 1970 to demonstrate support for environmental protection."],
   ["The Montreal Protocol is an international treaty designed to protect:", "Wetlands", "Ozone layer", "Forests", "Oceans", 1, "It regulates the production and consumption of ozone-depleting substances."],

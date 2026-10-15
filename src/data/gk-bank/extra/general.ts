@@ -37,9 +37,9 @@ export default [
   ["Who was the first Indian to win an Academy Award (Oscar)?", "Satyajit Ray", "A. R. Rahman", "Bhanu Athaiya", "Resul Pookutty", 2, "Bhanu Athaiya won for Best Costume Design for 'Gandhi' (1982)."],
   ["Who was the first Governor-General of independent India?", "Lord Mountbatten", "C. Rajagopalachari", "Dr. Rajendra Prasad", "Jawaharlal Nehru", 0, "Mountbatten served until June 1948."],
   ["Who was the first Indian Governor-General of independent India?", "Lord Mountbatten", "C. Rajagopalachari", "Sardar Patel", "Dr. Rajendra Prasad", 1, "C. Rajagopalachari served from 1948 to 1950."],
-  ["Who was the first Speaker of the Lok Sabha?", "Hukam Singh", "N. Sanjiva Reddy", "G. V. Mavalankar", "G. S. Dhillon", 2, "Ganesh Vasudev Mavalankar served from 1952 to 1956."],
+  ["Which is the smallest state of India by area?", "Sikkim", "Goa", "Tripura", "Manipur", 1, "Goa covers about 3,702 sq km, making it the smallest state by area."],
   ["Who was the first Chief Election Commissioner of India?", "T. N. Seshan", "K. V. K. Sundaram", "Sukumar Sen", "M. S. Gill", 2, "Sukumar Sen served from 1950 to 1958."],
   ["Who was the first Field Marshal of India?", "K. M. Cariappa", "Arjan Singh", "Sam Manekshaw", "J. N. Chaudhuri", 2, "Sam Manekshaw was promoted to the rank in 1973."],
-  ["Who was the first Indian woman to win an Olympic medal?", "P. T. Usha", "Saina Nehwal", "Karnam Malleswari", "Mary Kom", 2, "Karnam Malleswari won bronze in Weightlifting at Sydney 2000."],
+  ["Who is known as the 'Missile Man of India'?", "Homi Bhabha", "Vikram Sarabhai", "A. P. J. Abdul Kalam", "Satish Dhawan", 2, "Kalam earned the nickname for his work on India's missile programmes like Agni and Prithvi."],
   ["Who was the first Indian to win an individual Olympic Gold medal?", "Leander Paes", "Rajyavardhan Rathore", "Abhinav Bindra", "Neeraj Chopra", 2, "Abhinav Bindra won gold in 10m Air Rifle at Beijing 2008."]
 ] satisfies Row[];
